@@ -16,9 +16,10 @@ html{
   font-size: 2em;
 }
 #welcome-section{
-  height: 100vh;
-  margin: 0;
-  padding: 0;
+  height: auto;
+  width:100%;
+  margin-top: 0%;
+  padding-top: 10%;
   text-align: center;
      background-image:linear-gradient(45deg, black 20%, blue);
 }
@@ -29,11 +30,10 @@ font-size: 4em;}
   color: #b1e3f2;
   font-size: 2em;
 }
-#projects{
-  width: 100%;
-  display: flex;
-  justify-contents: center;
-  flex-direction: column;
+#grid{
+  display: inline-grid;
+  grid-template-columns: 50vh, 50vh
+    
 }
 .project-title{width:100%;}
 
@@ -41,4 +41,14 @@ font-size: 4em;}
   #navbar{
     background-image: linear-gradient(45deg, blue, red);
   }
+}
+footer{
+  background-image:linear-gradient(45deg, black 20%, blue);
+}
+img{
+  height: 200px;
+  width: auto;
+}
+i{
+  color: white;
 }
